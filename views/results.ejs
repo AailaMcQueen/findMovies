@@ -1,0 +1,18 @@
+<% include partials/header%>
+<div class="results">
+<div class="container" id="container">
+<%for(var i=0; i< data["Search"].length; i++){%>
+  <% if(i==0){%>
+    <div class="row align-items-center">
+    <%}%>
+    <div class="col-6 col-sm-6 col-md-6 col-lg-4">
+      <img class="poster" src="<%=data["Search"][i].Poster%>" alt="<%=data["Search"][i].Title%>">
+    <p class="title">  <%=data["Search"][i].Title%> </p>
+    </div>
+<% if(i==data["Search"].length-1){%>
+</div>
+<%}%>
+<%}%>
+
+</div>
+<% include partials/footer%>

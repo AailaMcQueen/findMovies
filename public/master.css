@@ -1,0 +1,54 @@
+html{
+  height: 100%;
+}
+body{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background-image: url(https://images5.alphacoders.com/445/445161.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+/* .movieBox{
+  background-color: steelblue;
+  width: 30%;
+  margin: 1.66%;
+  float: left;
+} */
+
+.results{
+  padding-top: 200px;
+}
+#form{
+  width: 52.3%;
+  padding: 20px;
+}
+#button{
+  padding: 20px;
+  background-color: white;
+}
+#button:hover{
+  background-color: green;
+  color: white;
+}
+#navbar{
+  background-color: grey;
+}
+#formBlock{
+  width: 100%;
+  margin: 0;
+}
+img{
+  width: 100%;
+  border-radius: 50%;
+}
+.title{
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+}
+#container{
+  background-color: grey;
+  background-blend-mode: lighten;
+}
