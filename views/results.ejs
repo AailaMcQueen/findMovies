@@ -1,6 +1,8 @@
 <% include partials/header%>
-<div class="results">
-<div class="container" id="container">
+
+<% if(data.Response!="False"){%>
+  <div class="results">
+  <div class="container" id="container">
 <%for(var i=0; i< data["Search"].length; i++){%>
   <% if(i==0){%>
     <div class="row align-items-center">
@@ -13,6 +15,8 @@
 </div>
 <%}%>
 <%}%>
-
 </div>
+</div>
+<%}%>
+
 <% include partials/footer%>
