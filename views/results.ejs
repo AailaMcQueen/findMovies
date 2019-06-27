@@ -8,8 +8,12 @@
     <div class="row align-items-center">
     <%}%>
     <div class="col-6 col-sm-6 col-md-6 col-lg-4">
-      <img class="poster" src="<%=data["Search"][i].Poster%>" alt="<%=data["Search"][i].Title%>">
-    <p class="title">  <%=data["Search"][i].Title%> </p>
+      <div class="thumbnail">
+        <img class="poster" src="<%=data["Search"][i].Poster%>" alt="<%=data["Search"][i].Title%>">
+      </div>
+      <div class="caption">
+        <p class="title">  <%=data["Search"][i].Title%> </p>
+      </div>
     </div>
 <% if(i==data["Search"].length-1){%>
 </div>

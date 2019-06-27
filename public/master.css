@@ -41,11 +41,11 @@ body{
 }
 img{
   width: 100%;
-  border-radius: 50%;
+  border-radius: 40%;
 }
 .title{
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.523rem;
   font-weight: bold;
 }
 #container{
