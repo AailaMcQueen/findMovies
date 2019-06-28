@@ -55,3 +55,14 @@ img{
   background-color: grey;
   background-blend-mode: lighten;
 }
+.info{
+  text-align: center;
+  text-transform: capitalize;
+}
+.info a{
+  color: steelblue;
+}
+.info a:hover{
+  color: red;
+  text-decoration: none;
+}

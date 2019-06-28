@@ -12,7 +12,10 @@
         <img class="poster" src="<%=data["Search"][i].Poster%>" alt="<%=data["Search"][i].Title%>">
       </div>
       <div class="caption">
-        <p class="title">  <%=data["Search"][i].Title%> </p>
+        <p class="title"><%=data["Search"][i].Title%></p>
+        <h4 class="info">Year : <%=data["Search"][i].Year%></h4>
+        <h4 class="info">Type : <%=data["Search"][i].Type%></h4>
+        <h4 class="info"><a href="<%="https://www.imdb.com/title/"+data["Search"][i].imdbID%>" target="_blank">Know More..</a></h4>
       </div>
     </div>
 <% if(i==data["Search"].length-1){%>
